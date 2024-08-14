@@ -1,0 +1,149 @@
+
+/* button{
+  border: none;
+  background: none;
+  position: absolute;
+  bottom: 3%;
+
+
+} */
+
+.help{
+  
+  
+  width: 100%;
+  
+ 
+  position: relative;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #fff;
+
+}
+
+.leftSidePannel {
+  background: #fff;
+  width: 23vw;
+  height: 98.3vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5% 1.5% 1.5% 1.5%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: center;
+  padding-top: 0;
+}
+
+.createNotesGroup {
+padding: 10px;
+border-radius: 50%;
+  background: #16008B;
+
+  outline: none;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+
+  /* ?text */
+  /* color: #fff; */
+
+
+
+  position: absolute;
+  bottom: 3%;
+  left: 16%;
+}
+
+.center {
+  /* center */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.notesGroupSlected {
+  padding: 5% 3% 3% 3%;
+
+  width: 21vw;
+  height: 2.375rem;
+
+  display: flex;
+  justify-self: start;
+}
+/* 
+.notesGroupSlected:active {
+  border-radius: 2rem 0rem 0rem 2rem;
+  background: #f7ecdc;
+  padding: 4% 4% 4% 5%;
+
+  width: 21vw;
+  height: 2.375rem;
+  flex-shrink: 0;
+
+  /* ?center */
+  /* display: flex;
+  justify-self: start; */
+  /* justify-content: center; */
+  /* align-items: center; */
+/* } */
+ 
+
+
+/* .act{
+  min-width: "100%";
+  min-height: "61px";
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+                      
+} */
+/* media query mobile view */
+@media (max-width: 600px) {
+  .leftSidePannel {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .createNotesGroup {
+ 
+    border-radius: 50%;
+      background: #16008B;
+    
+      
+    
+    
+      /* ?text */
+      /* color: #fff; */
+    
+    
+      bottom: 3%;
+     left: 75%;
+      
+   
+
+
+    /* ?text */
+    color: #fff;
+   
+  }
+
+  .notesGroupSlected {
+    padding: 5% 3% 3% 3%;
+
+    width: 100vw;
+    height: 2.375rem;
+  }
+
+  .notesGroupSlected:active {
+    width: 97vw;
+   
+
+  }
+
+}
+
